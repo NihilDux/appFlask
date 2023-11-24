@@ -1,0 +1,74 @@
+{
+  "profesores": [
+    {
+      "id": 1,
+      "nombre": "Nicolas Munoz",
+      "cursos": [
+        {
+          "id": 1,
+          "nombre": "Programacion de Apps Moviles",
+          "codigo": "PGY4121",
+          "seccion": "009V",
+          "alumnos": [
+            {
+              "id": 1,
+              "user": "acurin",
+              "nombre": "Angelo Curin"
+            },
+            {
+              "id": 2,
+              "user": "sawad",
+              "nombre": "Samira Awad"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Programacion Web",
+          "codigo": "PGY3121",
+          "seccion": "010V",
+          "alumnos": [
+            {
+              "id": 1,
+              "user": "acurin",
+              "nombre": "Angelo Curin"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Portafolio",
+          "codigo": "PGY4131",
+          "seccion": "012V",
+          "alumnos": [
+            {
+              "id": 2,
+              "user": "sawad",
+              "nombre": "Samira Awad"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "user": "nmunoz",
+      "password": "0410",
+      "nombre": "Nicolas Munoz",
+      "perfil": 1,
+      "correo": "docente@duocuc.cl"
+    },
+    {
+      "id": 2,
+      "user": "acurin",
+      "password": "0410",
+      "nombre": "Angelo Curin",
+      "perfil": 2,
+      "correo": "alumno@duocuc.cl"
+    }
+  ],
+  "clases": [
+  ]
+}
